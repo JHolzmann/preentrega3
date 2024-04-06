@@ -52,6 +52,12 @@ div div article p{
     font-weight: bold;
 }
 
+.iframe{
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
 @media (max-width: 768px){
     .busqueda{
         display: none;
@@ -63,7 +69,7 @@ div div article p{
     .navbar-nav .nav-link {
         font-size: 23px;
     }
-    p{
+    .index-p{
         padding: 5px;
         font-size: 3dvh;
         color: #3f612d;
@@ -99,7 +105,13 @@ div div article p{
         flex-direction: column;
         justify-content: center;
         
-
+    }
+    .articulo{
+        max-width: 360px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5dvh;
     }
 }
 
@@ -183,4 +195,27 @@ footer{
 
 .explicacion{
     background-color: #f3b391;
+}
+
+/*comienza care*/
+
+.articulo{
+    display: flex;
+    flex-direction: column;
+    background-color: #e4e4e4;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.titulo-3{
+    color: #3f612d;
+    font-weight: 700;
+    font-size: 5dvh;
+    text-align: center;
+}
+
+.care-p{
+    font-weight: 400;
+    font-size: 2dvh;
+
 }
