@@ -1,0 +1,186 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #f3b391;
+}
+
+header nav div ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #f6d4ba;
+}
+
+.section{
+    width: 100%;
+    height: 300px;
+    background-image: url(../assets/img/img-home/fondohome.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f6d4ba;
+    text-align: center;
+}
+
+h1{
+    font-size: 10dvh;
+    padding-top: 16dvh;
+}
+
+main div h2{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 8dvh;
+    color: #3f612d;
+}
+
+.img-logo{
+    height: 20dvh;
+    width: auto;
+    padding: 3dvh;
+    border-radius: 50%;
+}
+
+div div article p{
+    color: #3f612d;
+    font-size: 5dvh;
+    font-weight: bold;
+}
+
+@media (max-width: 768px){
+    .busqueda{
+        display: none;
+    }
+    .tamaño{
+        width: 50dvh;
+        margin-left: 14dvh;
+    }
+    .navbar-nav .nav-link {
+        font-size: 23px;
+    }
+    p{
+        padding: 5px;
+        font-size: 3dvh;
+        color: #3f612d;
+        margin-left: 15dvh;
+        font-weight: bold;
+    }
+    .footer{
+        justify-items: center;
+        justify-content: center;
+    }
+    h1{
+        padding-top: 5dvh;
+        font-size: 5dvh;
+    }
+    .qs-text{
+        color: #f6d4ba;
+        font-weight: 400;
+        padding: 10px;
+        font-size: 2dvh;
+    }
+    .forma{
+        max-width: 360px;
+        justify-content: center;
+    }
+    .forma .buy-list li p{
+        font-size: 2dvh;
+        color: black;
+        margin: 0%;
+        padding-bottom: 1dvh;
+    }
+    .explicacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+
+    }
+}
+
+@media (max-width: 1180px){
+    .busqueda{
+        display: none;
+    }
+    .navbar-nav .nav-link{
+        font-size: 25px;
+    }
+    .footer{
+        justify-items: center;
+        justify-content: space-evenly;
+    }
+    h1{
+        padding-top: 5dvh;
+        font-size: 6dvh;
+    }
+}
+
+
+
+footer{
+    display: flex;
+    background-color: #f6d4ba;
+    justify-content: space-between;
+    margin-top: 8dvh;
+    justify-items: center;
+}
+
+
+.iframe{
+    width: 30dvh;
+    height: auto;
+}
+
+/*comienza quienes-somos*/
+
+.qs-main{
+    background-color: #3f612d;
+    
+}
+
+.qs-text{
+    color: #f6d4ba;
+    font-weight: 700;
+    padding: 10px;
+}
+
+/*comienza como comprar*/
+
+.forma{
+    background-color: #3f612d;
+    padding: 10dvh;
+    border-radius: 10px;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    width: 60dvh;
+    justify-content: center;
+}
+
+.buy-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.buy-list li{
+    text-align: center;
+    text-decoration-color: black;
+    font-weight: 700;
+}
+
+.buy-main{
+    background-image: url(../assets/img/img-qs/marido\ trabajando.jpg);
+    background-repeat: repeat-x;
+    background-size: auto;
+}
+
+.explicacion{
+    background-color: #f3b391;
+}

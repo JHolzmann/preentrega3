@@ -15,7 +15,7 @@
         <nav class="navbar navbar-expand-md navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
-                    <img class="img-logo" src="../assets/image/home-img/Captura de pantalla 2024-03-21 220516.jpg" alt="logo">
+                    <img class="img-logo" src="../assets/img/img-home/logo.webp" alt="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -23,7 +23,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="./quienessomos.html">Quienes somos</a>
+                        <a class="nav-link" href="./qs.html">Quienes somos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./products.html">Catalogo</a>
@@ -37,78 +37,84 @@
                 </ul>
                 </div>
                 <div class="busqueda">
-                <form action="pages/products.html"></form>
+                <form action="./products.html"></form>
                 <label for="search">Buscar</label>
                 <input type="search">
                 </div>
             </div>
         </nav>
     </header>
-    <main>
-        <div class="main-comprar">
-            <ul class="comprar-list">
-                <li>
-                    <img class="comprar-1" src="../image/como-comprar/icons8-search.gif" alt="buscar">
-                    <p>Buscar</p>
-                </li>
-                <li>
-                    <img class="comprar-1" src="../image/como-comprar/icons8-basket-48.png" alt="agrega">
-                    <p>agrega</p>
-                </li>
-                <li>
-                    <img class="comprar-1" src="../image/como-comprar/icons8-paid-48.png" alt="revisa">
-                    <p>revisa tu carrito</p>
-                </li>
-                <li>
-                    <img class="comprar-1" src="../image/como-comprar/icons8-location-48.png" alt="donde-recibir">
-                    <p>elegi donde lo queres recibir</p>
-                </li>
-                <li>
-                    <img class="comprar-1" src="../image/como-comprar/icons8-credit-card-48.png" alt="tarjetas">
-                    <p>elegi como queres pagar</p>
-                </li>
-                <li>
-                    <img class="comprar-1" src="../image/como-comprar/icons8-done.gif" alt="listo">
-                    <p>y listo!</p>
-                </li>
-            </ul>
-            <section>
-                <dl>
-                    <dt>Busca</dt>
-                    <dd>Navegá por el sitio y buscá los productos que deseas comprar. Elegí cualquiera de las     categorías que están en la parte superior de la página o utilizá el buscador para encontrarlo.</dd>
-                    <dt>Agrega</dt>
-                    <dd>Una vez que hayas encontrado los productos que buscabas, hacé click en el botón “Agregar al carrito”. Presionando el ícono del carrito podés consultar los productos seleccionados, cambiar las cantidades o eliminar lo que no desees. Cuando hayas finalizado, presioná “Iniciar Compra” para avanzar.</dd>
-                    <dt>Revisa tu carrito</dt>
-                    <dd>Asegurate que los productos que están dentro de tu carrito sean los que elegiste. En el caso que tengas un cupón de descuento tendrás la opción de incorporarlo a tu compra en esta sección.
-                    Luego, hacé click en el botón “Realizar compra” para continuar.</dd>
-                    <dt>Elegi donde lo queres recibit</dt>
-                    <dd>Podrás elegir envío a domicilio o retiro en tu Tienda Coppel más cercana.</dd>
-                    <dt>Elige tu forma de pago</dt>
-                    <dd>Asegurate que tu pedido sea correcto: tus productos, los datos de entrega, forma de pago y total a pagar. Una vez hecho esto, completá los datos en el módulo de pago y hacé click en el botón “Finalizar compra”.</dd>
-                    <dt>Listo!</dt>
-                    <dd>Ya puedes seguir tu envio con el codigoque te llegara al mail. Muchas gracias!</dd>
-                </dl>
-            </section>
+    <main class="buy-main">
+        <div>
+            <div class="forma">
+                <ul class="buy-list">
+                    <li>
+                        <img src="../assets/img/img-buy/icons8-search.gif" alt="buscar">
+                        <p>Buscar</p>
+                    </li>
+                    <li>
+                        <img src="../assets/img/img-buy/icons8-basket-48.png" alt="agrega">
+                        <p>agrega</p>
+                    </li>
+                    <li>
+                        <img src="../assets/img/img-buy/icons8-paid-48.png" alt="revisa">
+                        <p>revisa tu carrito</p>
+                    </li>
+                    <li>
+                        <img src="../assets/img/img-buy/icons8-location-48.png" alt="donde-recibir">
+                        <p>elegi donde lo queres recibir</p>
+                    </li>
+                    <li>
+                        <img src="../assets/img/img-buy/icons8-credit-card-48.png" alt="tarjetas">
+                        <p>elegi como queres pagar</p>
+                    </li>
+                    <li>
+                        <img src="../assets/img/img-buy/icons8-done.gif" alt="listo">
+                        <p>y listo!</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <section>
+                        <dl class="explicacion">
+                            <dt>Busca</dt>
+                            <dd>Navegá por el sitio y buscá los productos que deseas comprar. Elegí cualquiera de las     categorías que están en la parte superior de la página o utilizá el buscador para encontrarlo.</dd>
+                            <dt>Agrega</dt>
+                            <dd>Una vez que hayas encontrado los productos que buscabas, hacé click en el botón “Agregar al carrito”. Presionando el ícono del carrito podés consultar los productos seleccionados, cambiar las cantidades o eliminar lo que no desees. Cuando hayas finalizado, presioná “Iniciar Compra” para avanzar.</dd>
+                            <dt>Revisa tu carrito</dt>
+                            <dd>Asegurate que los productos que están dentro de tu carrito sean los que elegiste. En el caso que tengas un cupón de descuento tendrás la opción de incorporarlo a tu compra en esta sección.
+                            Luego, hacé click en el botón “Realizar compra” para continuar.</dd>
+                            <dt>Elegi donde lo queres recibit</dt>
+                            <dd>Podrás elegir envío a domicilio o retiro en tu Tienda Coppel más cercana.</dd>
+                            <dt>Elige tu forma de pago</dt>
+                            <dd>Asegurate que tu pedido sea correcto: tus productos, los datos de entrega, forma de pago y total a pagar. Una vez hecho esto, completá los datos en el módulo de pago y hacé click en el botón “Finalizar compra”.</dd>
+                            <dt>Listo!</dt>
+                            <dd>Ya puedes seguir tu envio con el codigoque te llegara al mail. Muchas gracias!</dd>
+                        </dl>
+                    </section>
+                </div>
+            </div>
             
         </div>
     </main>
     <footer class="footer">
         <div class="d-none d-md-block">
             <a target="_blank" href="index.html">
-                <img class="img-logo" src="../assets/image/home-img/Captura de pantalla 2024-03-21 220516.jpg" alt="logo">
+                <img class="img-logo" src="../assets/img/img-home/logo.webp" alt="logo">
             </a>
         </div>
         <div>
             <a target="_blank" href="https://www.facebook.com/enlatados.almacen.1/">
-                <img class="footer-img" src="../assets/image/home-img/footer/icons8-facebook-100.png" alt="facebook">
+                <img class="footer-img" src="../assets/img/img-home/footer/icons8-facebook-100.png" alt="facebook">
             </a>
             
             <a target="_blank" href="https://www.instagram.com/enlatadosalmacen/">
-                <img class="footer-img" src="../assets/image/home-img/footer/icons8-instagram-100.png" alt="instagram">
+                <img class="footer-img" src="../assets/img/img-home/footer/icons8-instagram-100.png" alt="instagram">
             </a>
             
             <a href="#">
-                <img class="footer-img" src="../assets/image/home-img/footer/icons8-email-100.png" alt="email">
+                <img class="footer-img" src="../assets/img/img-home/footer/icons8-email-100.png" alt="email">
             </a>
         </div>
         <div class="d-none d-md-block">
