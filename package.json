@@ -1,0 +1,19 @@
+{
+  "name": "preentrega3.holzmann",
+  "version": "1.0.0",
+  "description": "mi primer pagina web para enlatados",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JHolzmann/preentrega3.git"
+  },
+  "author": "Jessica Holzmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JHolzmann/preentrega3/issues"
+  },
+  "homepage": "https://github.com/JHolzmann/preentrega3#readme"
+}
