@@ -1,0 +1,29 @@
+.buy-main{
+    background-image: url(../assets/img/img-qs/marido\ trabajando.jpg);
+    background-repeat: repeat-x;
+    background-size: auto;
+    .forma{
+        background-color: $color-text;
+        padding: 10dvh;
+        border-radius: 10px;
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+        width: 60dvh;
+        justify-content: center;
+        .buy-list{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            li{
+                text-align: center;
+                font-weight: 700;
+            }
+        }
+    }
+    .explicacion{
+        background-color: $color-header;
+        color: $color-text;
+    }
+}

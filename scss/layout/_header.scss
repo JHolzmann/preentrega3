@@ -1,0 +1,17 @@
+header{
+    background-color: $color-header;
+    .img-logo{
+        height: 20dvh;
+        width: auto;
+        padding: 3dvh;
+        border-radius: 50%;
+    }
+    nav div ul{
+        list-style: none;
+        text-decoration: none;
+        .navbar-nav .nav-item .nav-link:hover{
+            color: $color-text-secundary;
+        }
+    }
+}
+

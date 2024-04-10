@@ -1,0 +1,13 @@
+footer{
+    display: flex;
+    background-color: #f6d4ba;
+    justify-content: space-between;
+    margin-top: 8dvh;
+    justify-items: center;
+    .iframe{
+        width: 30dvh;
+        height: auto;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+}
