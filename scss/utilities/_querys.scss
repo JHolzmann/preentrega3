@@ -9,26 +9,28 @@
     .navbar-nav .nav-link {
         font-size: 23px;
     }
+    section h1{
+        font-size: 2rem;
+    }
+    main div h2{
+        font-size: 2rem;
+    }
     .index-p{
         padding: 5px;
         font-size: 3dvh;
-        color: #3f612d;
-        margin-left: 15dvh;
+        color: $color-text;
+        margin-left: 2rem;
         font-weight: bold;
     }
     .footer{
         justify-items: center;
         justify-content: center;
     }
-    h1{
-        padding-top: 5dvh;
-        font-size: 3dvh;
-    }
     .qs-text{
-        color: #f6d4ba;
-        font-weight: 400;
+        color: $color-footer;
+        font-weight: 300;
         padding: 10px;
-        font-size: 2dvh;
+        font-size: 2rem;
     }
     .forma{
         max-width: 360px;
@@ -36,7 +38,7 @@
     }
     .forma .buy-list li p{
         font-size: 2dvh;
-        color: #fefadc;
+        color: $color-list;
         margin: 0%;
         padding-bottom: 1dvh;
     }
@@ -47,11 +49,11 @@
         
     }
     .articulo{
-        max-width: 360px;
+        max-width: 576px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 5dvh;
+        
     }
 }
 
