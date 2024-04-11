@@ -1,9 +1,10 @@
-/* Error: expected more input.
+/* Error: Undefined mixin.
  *    ,
- * 10 | @import
- *    |        ^
+ * 36 |     @include p-home($color-text, 5dvh, bold);
+ *    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  *    '
- *   scss\main.scss 10:8  root stylesheet */
+ *   scss\views\_home.scss 36:5  @import
+ *   scss\main.scss 5:9          root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: expected more input.\a    \2577 \a 10 \2502  @import\a    \2502         ^\a    \2575 \a   scss\\main.scss 10:8  root stylesheet";
+  content: "Error: Undefined mixin.\a    \2577 \a 36 \2502      @include p-home($color-text, 5dvh, bold);\d\a    \2502      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\views\\_home.scss 36:5  @import\a   scss\\main.scss 5:9          root stylesheet";
 }

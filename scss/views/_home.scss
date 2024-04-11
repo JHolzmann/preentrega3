@@ -33,5 +33,7 @@ main div h2{
 }
 
 div div article p{
-    @include p-home ($color-text, 5dvh, bold);
+    color: #3f612d;
+    font-size: 5dvh;
+    font-weight: bold;
 }

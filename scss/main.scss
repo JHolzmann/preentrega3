@@ -1,4 +1,5 @@
 @import "utilities/variables";
+@import "utilities/mixins";
 @import "base/reset";
 @import "layout/header";
 @import "layout/footer";
@@ -7,4 +8,3 @@
 @import "views/buy";
 @import "views/care";
 @import "vendors/querys";
-@import "utilities/mixins";
