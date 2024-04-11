@@ -1,0 +1,5 @@
+@mixin p-home($color, $f-size, $f-weight){
+    color: $color;
+    font-size: $f-size;
+    font-weight: $f-weight;
+}

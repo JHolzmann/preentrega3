@@ -17,10 +17,21 @@ main div h2{
     text-align: center;
     font-size: 8dvh;
     color:$color-text;
+    animation-name: ofertas;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes ofertas{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
 }
 
 div div article p{
-    color: $color-text;
-    font-size: 5dvh;
-    font-weight: bold;
+    @include p-home ($color-text, 5dvh, bold);
 }
