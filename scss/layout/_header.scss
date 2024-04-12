@@ -9,7 +9,8 @@ header{
     nav div ul{
         list-style: none;
         text-decoration: none;
-        .navbar-nav .nav-item .nav-link:hover{
+        cursor: pointer;
+        .nav-item .nav-link:hover{
             color: $color-text-secundary;
         }
     }

@@ -17,8 +17,9 @@ header .img-logo {
 header nav div ul {
   list-style: none;
   text-decoration: none;
+  cursor: pointer;
 }
-header nav div ul .navbar-nav .nav-item .nav-link:hover {
+header nav div ul .nav-item .nav-link:hover {
   color: #f6d4ba;
 }
 
