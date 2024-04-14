@@ -8,13 +8,13 @@
 header {
   background-color: #f3b391;
 }
-header .img-logo {
+header .img-logo{
   height: 20dvh;
   width: auto;
   padding: 3dvh;
   border-radius: 50%;
 }
-header nav div ul {
+header nav div ul{
   list-style: none;
   text-decoration: none;
   cursor: pointer;
